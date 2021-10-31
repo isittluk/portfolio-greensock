@@ -1,0 +1,28 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: $font-family-primary;
+    letter-spacing: 4px;
+
+    &:hover {
+        cursor: default;
+    }
+    z-index: 1000;
+}
+
+h1 {
+    font-weight: 400;
+    text-transform: uppercase;
+
+    font-size: 6rem;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.title-stagger {
+    opacity: 0;
+}
+
+.h2-color {
+    opacity: 0;
+}

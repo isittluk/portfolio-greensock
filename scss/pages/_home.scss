@@ -1,0 +1,13 @@
+#hero {
+    .row {
+        overflow:hidden;
+
+        height:100px;
+        padding: 15px 0;
+    }
+}
+
+.title-stagger {
+    
+    transform: translateY(100px);
+}

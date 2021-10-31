@@ -1,0 +1,20 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    // border: 1px solid $font-color-primary;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.col {
+    flex: 1;
+}
+
+.col-6 {
+    flex: 6;
+}
+  
