@@ -1,8 +1,12 @@
 * {
     font-family: $font-family-primary;
-    background-color: $bg-color-primary;
     color: $font-color-primary;
 
     max-width: $max-screen-width;
     margin: 0 auto;
+}
+
+body {
+    // background-color: $bg-color-primary;
+    background: linear-gradient(180deg, #FDFDF5 7.81%, #E4EAF8 46.35%, rgba(238, 180, 194, 0.25) 69.27%, rgba(244, 237, 229, 0) 100%);
 }

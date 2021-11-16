@@ -14,50 +14,67 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/phosphor-icons"></script>
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
+        
     </head>
     <body>
         <div class="cursor"></div>
         <div class="cursor-follower"></div>
         
-        <header class="border-bottom" style="display:flex;height:12vh;align-items: center;">
+        <header style="display:flex;height:12vh;align-items: center;">
             <span class="cursor-hover" style="margin-left:0;">Luke J. Isitt</span>
             <ul style="display:flex;margin-right:0;">
-                <li class="cursor-hover" style="list-style-type: none;padding:16px;"><span>Work</span></li>
-                <li class="cursor-hover" style="list-style-type: none;padding:16px;"><span>About</span></li>
+                <li class="nav-item cursor-hover" style="list-style-type: none;padding:16px;"><span>Work</span><div class="underline"></div></li>
+                <li class="nav-item cursor-hover" style="list-style-type: none;padding:16px;"><span>About</span></li>
             </ul>
         </header>
 
-        <section id="hero" class="mt-3">
-            <div class="container ml-0">
-                <div class="row ml-0">
-                    <div class="col">
-                        <span class="title-stagger-container">
-                            <h1 class="title-stagger">UX Designer</h1>
-                        </span>
+        <section class="mt-3 work">
+            <div class="cs" style="margin-top: 120px;height:90vh;">
+                <div class="cs-image bg-yellow"><img src="/img/display-lemons.png" class="display-image"></div>
+                <div class="cs-container">
+                    <h2>Lemonaid Health</h2>
+                    <p class="cs-summary ml-0 mb">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
+                    <button class="btn-primary mb"><span style="margin-right:16px;">Read the case study</span><i class="ph-arrow-right"></i></button>
+                </div>
+            </div>
 
-                    </div>
+            <div class="cs" style="height:90vh;">
+                <div class="cs-image"></div>
+                <div class="cs-container">
+                    <h2>Reinsurance Management</h2>
+                    <p class="cs-summary ml-0 mb">Providing new methods of viewing data, increasing investment management firms' domain system efficiency. We envisioned bespoke, innovative data centralization with a series of web apps for numerous investment firms. </p>
+                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
                 </div>
-                <div class="row ml-0">
-                    <div class="col">
-                        <h1 class="ml-0 title-stagger"><span>& front-end engineer</span></h1>
-                    </div>
+            </div>
+
+            <div class="cs" style="height:90vh;">
+                <div class="cs-image"></div>
+                <div class="cs-container">
+                    <h2>Nursing CE</h2>
+                    <p class="cs-summary ml-0 mb">Leading the vision for a new mobile certificate examination platform to increase accessibility and user satisfaction. We introduced a new mobile platform to enable students to continue their studies on the go.</p>
+                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
                 </div>
-                <div class="row ml-0">
-                    <div class="col">
-                        <h1 class="ml-0 title-stagger"><span>in america</span></h1>
-                    </div>
+            </div>
+
+            <div class="cs" style="height:90vh;">
+                <div class="cs-image"></div>
+                <div class="cs-container">
+                    <h2>Zoe Coffee House</h2>
+                    <p class="cs-summary ml-0 mb">Rebranding the restaurant to facilitate a new business-strategy and enhance user experience. We brought beautiful interfaces to life to meet our users’ expectations.</p>
+                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
                 </div>
-                </div>
+            </div>
+
+
+
+            <div class="cs-bg">
+                <span class="bg-text">healthcare</span>
             </div>
         </section>
 
-        <section class="mt-3">
-            <div class="container ml-0">
-                <h2 class="h2-color ml-0">Natalie has a stinky cooch</h2>
-            </div>
-        </section>
         
         <script type="text/javascript" src="js/main.js" async defer></script>
 

@@ -1,0 +1,16 @@
+.underline {
+    height: 1.333px;
+    background-color: black;
+    animation-duration: 1.333s;
+    animation-name: slideIn;
+}
+@keyframes slideIn {
+
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+}
