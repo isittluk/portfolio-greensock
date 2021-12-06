@@ -1,0 +1,26 @@
+.anim-underline {
+    display: inline-block;
+    position: relative;
+    color: black;
+    
+    &:after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 1px;
+      transform: scaleX(0);
+      bottom: 0;
+      left: 0;
+      background-color: black;
+      transform-origin: bottom right;
+      transition: transform 0.333s cubic-bezier(0.215, 0.610, 0.355, 1.000); 
+      /* easeOutCubic */
+    }
+    
+    &:hover {
+      &:after {
+          transform: scaleX(1);
+          transform-origin: bottom left;
+      }
+    }
+  }

@@ -19,14 +19,14 @@ header {
 }
 
 .home {
-    border: 1px solid black;
-    position: fixed;
-    width: 100%;
+    background: linear-gradient(180deg, #FFFFFF 0%, #F4F4F4 22.87%);
 }
+
 .work {
     z-index: 2;
     .cs { 
         z-index: 2;
+        margin-bottom:90px;
         .bg-yellow {
             background: linear-gradient(0deg, rgba(255, 247, 37, 0.1), rgba(255, 247, 37, 0.1)), #FFFFFF;
         }
@@ -43,7 +43,7 @@ header {
                 z-index: 2;
                 object-fit:cover;
                 filter: drop-shadow(0px 100px 80px rgba(28, 28, 28, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(28, 28, 28, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(28, 28, 28, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(28, 28, 28, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(28, 28, 28, 0.0282725));
-                margin-left: 32px;
+                // margin-left: 32px;
                 height: 90%;
             }
         }
@@ -52,6 +52,7 @@ header {
             position: relative;
             left: 117px;
             top: -8%;
+            display: inline-block;
             .cs-summary {
                 z-index: 1;
                 width: 670px;
@@ -80,4 +81,8 @@ header {
             font-weight: 600;
         }
     }
+}
+
+.about {
+    background-color: $color-darkgrey;
 }
