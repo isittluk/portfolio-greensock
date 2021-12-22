@@ -1,5 +1,16 @@
-.nav-item {
-    list-style-type: none;
-    margin: 16px;
-    padding-bottom: 8px;
+header {
+    z-index: 10000!important;
+
+    .nav-item {
+        list-style-type: none;
+        margin: 16px;
+        padding-bottom: 8px;
+    }
+    
+    .nav-img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50px;
+        margin-right:0.75rem;
+    }
 }
