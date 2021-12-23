@@ -1,3 +1,70 @@
+.scroll-notif {
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+
+    .star {
+        position: absolute;
+        width: 25px;
+        top:8px;
+    }
+    span {
+        text-transform: uppercase;
+        font-size: 12px;
+        letter-spacing: 1px;
+        position: absolute;
+        white-space: nowrap;
+        top: 0;
+        left:8px;
+        transform-origin: 0 0;
+        transform: translateX(20px) rotate(-30deg);
+    }
+}
+
+.hero-bg {
+    position: absolute;
+    width: 100%;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: flex-end;
+
+    .hero-bg-img {
+        margin: 0;
+        &--1 { 
+            @extend .hero-bg-img;
+            width:180px;
+            height:200px;
+            background: url(/img/filler/pexels-anastasia-zhenina-10916.jpg);
+            background-size: cover;
+            margin-right:8px;
+        }
+        &--2 {
+            @extend .hero-bg-img;
+            width:220px;
+            height:250px;
+            background: url(/img/filler/pexels-arthouse-studio-4329787.jpg);
+            background-size: cover;
+            margin-right: 30%;
+        }
+        &--3 {
+            @extend .hero-bg-img;
+            width:220px;
+            height:250px;
+            background: url(/img/filler/pexels-dominika-roseclay-2286678.jpg);
+            background-size: cover;
+            margin-right:8px;
+        }
+        &--4 {
+            @extend .hero-bg-img;
+            width:425px;
+            height:340px;
+            background: url(/img/filler/pexels-jv-gardens-339887.jpg);
+            background-size: cover;
+        }
+    }
+}
+
 #hero {
     .row {
         overflow:hidden;
@@ -7,11 +74,7 @@
     }
 }
 
-header {
-    position: fixed;
-    top: 16px;
-    width: 100vw;
-}
+
 
 .title-stagger {
     
