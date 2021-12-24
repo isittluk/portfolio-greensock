@@ -236,7 +236,7 @@ h2 {
 
 h3 {
   font-weight: 600;
-  font-size: 32px; }
+  font-size: 36px; }
 
 h4 {
   font-weight: 600;
@@ -366,21 +366,23 @@ header {
     margin-bottom: 20%; }
     .work .cs .bg-yellow {
       background: linear-gradient(0deg, rgba(255, 247, 37, 0.1), rgba(255, 247, 37, 0.1)), #FFFFFF; }
-    .work .cs .cs-image {
+    .work .cs .cs-image, .work .cs .cs-image--1 {
       z-index: 2;
       display: flex;
       width: 100%;
       object-fit: cover;
       overflow-y: hidden;
-      margin-bottom: -7%; }
-      .work .cs .cs-image img {
-        width: 75%;
-        object-fit: cover; }
-      .work .cs .cs-image .display-image {
+      filter: drop-shadow(0px 100px 80px rgba(28, 28, 28, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(28, 28, 28, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(28, 28, 28, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(28, 28, 28, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(28, 28, 28, 0.0282725));
+      transition: all 1.333 ease-in-out; }
+      .work .cs .cs-image--1 {
         z-index: 2;
         object-fit: cover;
-        filter: drop-shadow(0px 100px 80px rgba(28, 28, 28, 0.07)) drop-shadow(0px 41.7776px 33.4221px rgba(28, 28, 28, 0.0503198)) drop-shadow(0px 22.3363px 17.869px rgba(28, 28, 28, 0.0417275)) drop-shadow(0px 12.5216px 10.0172px rgba(28, 28, 28, 0.035)) drop-shadow(0px 6.6501px 5.32008px rgba(28, 28, 28, 0.0282725));
-        height: 100%; }
+        height: 425px;
+        width: 69%;
+        background: url(/img/display/lemonaid.jpg);
+        background-size: cover;
+        background-position: center bottom;
+        margin-bottom: -2%; }
     .work .cs .cs-container {
       z-index: 1;
       position: relative;
