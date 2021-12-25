@@ -1,6 +1,12 @@
 header {
     z-index: 10000!important;
     top: 16px;
+    position: sticky;
+    height: 12vh;
+    // background-color: rgba(255, 255, 255, .15);  
+    // backdrop-filter: blur(1px);
+
+    transition: all 0.333s ease;
 
     .nav-item {
         list-style-type: none;
@@ -14,4 +20,9 @@ header {
         border-radius: 50px;
         margin-right:0.75rem;
     }
+}
+
+.nav-extended {
+    background-color: red;
+    height: 6vh;
 }

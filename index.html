@@ -14,13 +14,15 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+
         
     </head>
     <body class="home">
-        <div class="cursor"></div>
-        <div class="cursor-follower"></div>
+        <!-- <div class="cursor"></div>
+        <div class="cursor-follower"></div> -->
         
-        <header class="container row align-center w-100" style="position:sticky;height:12vh;">
+        <header class="container row align-center w-100 nav">
             <a href="/index.html" class="cursor-hover d-flex no-href-style" style="margin-left:0;" aria-label="Home" title="Home">
                 <img class="nav-img" src="/img/profile-pic.jpg" alt="Picture of Luke">
                 Luke J. Isitt
@@ -33,28 +35,19 @@
 
         <section class="hero" style="height: 100vh;">
             <h1 class="w-75 ml-0" style="position:absolute;bottom:6%;z-index: 10;">Luke Isitt is a designer and engineer based in the US, with 5 years of design experience.</h1>
-            <div class="container hero-bg row">
-                <div class="hero-bg-img--1"></div>
-                <div class="hero-bg-img--2"></div>
-                <div class="hero-bg-img--3"></div>
-                <div class="hero-bg-img--4"></div>
-            </div>
-            <a href="#" class="container scroll-notif row">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" class="rotating star" data-v-0405a88c=""><path fill-rule="evenodd" d="M20.078 14.026L24.157 0l5.02 14.026 12.548-7.013-6.588 13.247L48 24.312l-12.863 4.675 6.588 12.78-13.803-7.481L24.157 48l-4.079-13.714-13.176 7.48 5.96-12.779L0 24l12.863-3.74-5.02-13.247 12.235 7.013z" data-v-0405a88c=""></path></svg>
-                <span>scroll</span>
-            </a>
         </section>
 
         <section class="work">
             <div class="cs">
-                <a href="/lemonaid.html" class="cs-image--1"></a>
+                <img src="/img/display/lemonaid.jpg" class="cs-image"/>
                 <div class="cs-container">
                     <h3>Lemonaid Health</h2>
                     <p class="cs-summary ml-0 mb">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
                     <button class="btn-primary mb"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
                 </div>
             </div>
-
+        </section>
+<!--
             <div class="cs">
                 <a href="/lemonaid.html" class="cs-image--2"></a>
                 <div class="cs-container">
@@ -95,11 +88,14 @@
                 </span>
                 helping designers and engineers to connect with eachother and drive growth by designing simple, and elegant systems.</h1>
                 <button class="btn-secondary">More about me</button>
-        </section>
+        </section> -->
 
-        <script src="https://unpkg.com/phosphor-icons"></script>
+
+
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        
         <script type="text/javascript" src="js/main.js" async defer></script>
 
     </body>
