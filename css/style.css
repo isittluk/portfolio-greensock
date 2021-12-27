@@ -300,8 +300,15 @@ header {
     margin-right: 0.75rem; }
 
 .nav-extended {
-  background-color: red;
   height: 6vh; }
+
+.hero {
+  position: relative;
+  height: 100vh; }
+  .hero h1 {
+    position: absolute;
+    z-index: 10;
+    bottom: 25%; }
 
 .scroll-notif {
   position: absolute;
@@ -355,11 +362,6 @@ header {
       background: url(/img/filler/pexels-jv-gardens-339887.jpg);
       background-size: cover; }
 
-#hero .row {
-  overflow: hidden;
-  height: 100px;
-  padding: 15px 0; }
-
 .title-stagger {
   transform: translateY(100px); }
 
@@ -369,12 +371,13 @@ header {
 .work {
   z-index: 2; }
   .work .cs {
+    position: relative;
     z-index: 2;
     margin-bottom: 20%; }
     .work .cs .bg-yellow {
       background: linear-gradient(0deg, rgba(255, 247, 37, 0.1), rgba(255, 247, 37, 0.1)), #FFFFFF; }
     .work .cs .cs-image, .work .cs .cs-image--1, .work .cs .cs-image--2, .work .cs .cs-image--3, .work .cs .cs-image--4 {
-      z-index: 2;
+      z-index: 5;
       display: flex;
       width: 100%;
       overflow-y: hidden;
@@ -412,26 +415,28 @@ header {
         width: 670px; }
   .work .cs-bg {
     z-index: -1 !important;
-    border: 2px solid white;
+    border: 4px solid white;
     width: 100vw;
     height: 70vh;
     position: fixed;
     top: 96px; }
-    .work .cs-bg .bg-text {
-      z-index: 2;
+    .work .cs-bg .bg-text, .work .cs-bg .bg-text--1, .work .cs-bg .bg-text--2, .work .cs-bg .bg-text--3, .work .cs-bg .bg-text--4 {
+      opacity: 1;
+      z-index: 1;
       position: absolute;
       top: 50%;
       left: -56px;
       transform: translateY(-50%);
       text-transform: uppercase;
       color: white;
-      opacity: 1;
       font-size: 200px;
       letter-spacing: 0.145em;
       font-weight: 600; }
 
 .about {
   background-color: #1c1c1c; }
+  .about span {
+    color: white; }
 
 section {
   margin-bottom: 3em; }

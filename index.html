@@ -18,7 +18,7 @@
 
         
     </head>
-    <body class="home">
+    <body class="home" id="scroll-container">
         <!-- <div class="cursor"></div>
         <div class="cursor-follower"></div> -->
         
@@ -33,12 +33,14 @@
             </ul>
         </header>
 
-        <section class="hero" style="height: 100vh;">
-            <h1 class="w-75 ml-0" style="position:absolute;bottom:6%;z-index: 10;">Luke Isitt is a designer and engineer based in the US, with 5 years of design experience.</h1>
+        <section class="hero">
+            <h1 class="w-75 d-flex anim-onLoad">
+                Luke Isitt is a designer and engineer based in the US, with 5 years of design experience.
+            </h1>
         </section>
 
         <section class="work">
-            <div class="cs">
+            <div class="cs anim-revealUp" id="lemonaid">
                 <img src="/img/display/lemonaid.jpg" class="cs-image"/>
                 <div class="cs-container">
                     <h3>Lemonaid Health</h2>
@@ -46,6 +48,18 @@
                     <button class="btn-primary mb"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
                 </div>
             </div>
+            <div class="cs anim-revealUp">
+                <img src="/img/display/lemonaid.jpg" class="cs-image"/>
+                <div class="cs-container">
+                    <h3>Lemonaid Health</h2>
+                    <p class="cs-summary ml-0 mb">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
+                    <button class="btn-primary mb"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <!-- <div class="cs-bg">
+                <span class="bg-text">healthcare</span>
+            </div> -->
         </section>
 <!--
             <div class="cs">
@@ -78,23 +92,34 @@
             <div class="cs-bg">
                 <span class="bg-text">healthcare</span>
             </div>
-        </section>
+        </section> -->
 
         <section class="about" style="padding: 80px 80px 80px 117px;">
             <h2 class="color-white w-75 ml-0 mb-3">
-                <span class="color-white d-flex align-center">
+                <span class="d-flex align-center revealUp">
                     <span class="color-white text-bold text-uppercase ml-0" style="font-size: 16px;margin-right:40px;">Being the bridge.</span>
                     I specialize in UX Engineering,
                 </span>
-                helping designers and engineers to connect with eachother and drive growth by designing simple, and elegant systems.</h1>
+                <span class="revealUp d-flex">
+                    helping designers and engineers to
+                </span>
+                <span class="revealUp d-flex">
+                    connect with eachother and drive
+                </span>
+                <span class="revealUp d-flex">
+                    growth by designing simple, and
+                </span>
+                <span class="revealUp d-flex">elegant systems.</span></h2>
                 <button class="btn-secondary">More about me</button>
-        </section> -->
+        </section>
 
 
 
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+        
         
         <script type="text/javascript" src="js/main.js" async defer></script>
 
