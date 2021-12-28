@@ -14,13 +14,11 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
-
-
-        
+        <script src="https://unpkg.com/phosphor-icons"></script>
     </head>
     <body class="home" id="scroll-container">
-        <!-- <div class="cursor"></div>
-        <div class="cursor-follower"></div> -->
+        <div class="cursor"></div>
+        <div class="cursor-follower"></div>
         
         <header class="container row align-center w-100 nav">
             <a href="/index.html" class="cursor-hover d-flex no-href-style" style="margin-left:0;" aria-label="Home" title="Home">
@@ -28,32 +26,54 @@
                 Luke J. Isitt
             </a>
             <ul style="display:flex;margin-right:0;">
-                <li class="nav-item cursor-hover anim-underline"><a href="#" class="no-href-style" aria-label="Work" title="Luke's work">Work</a></li>
-                <li class="nav-item cursor-hover anim-underline"><a href="/test.html" class="no-href-style" aria-label="About" title="About Luke">About</a></li>
+                <li class="nav-item cursor-hover anim-underline-black"><a href="/index.html" class="no-href-style" aria-label="Work" title="Luke's work">Work</a></li>
+                <li class="nav-item cursor-hover anim-underline-black"><a href="/test.html" class="no-href-style" aria-label="About" title="About Luke">About</a></li>
             </ul>
         </header>
 
-        <section class="hero">
-            <h1 class="w-75 d-flex anim-onLoad">
-                Luke Isitt is a designer and engineer based in the US, with 5 years of design experience.
-            </h1>
+        <section class="hero container anim-fadeOut">
+            <div class="wrap">
+                <h1 class="w-75 anim-textFancy">
+                    Luke Isitt is a designer and engineer based in the US, with 5 years of design experience.
+                </h1>
+            </div>
         </section>
 
         <section class="work">
-            <div class="cs anim-revealUp" id="lemonaid">
-                <img src="/img/display/lemonaid.jpg" class="cs-image"/>
+            
+            <div class="d-block container cs anim-revealUp" id="lemonaid">
+                <a href="/lemonaid.html" class="no-href-style"><img src="/img/display/lemonaid.jpg" class="cs-image"/></a>
                 <div class="cs-container">
-                    <h3>Lemonaid Health</h2>
-                    <p class="cs-summary ml-0 mb">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
-                    <button class="btn-primary mb"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
+                    <h3 class="anim-t-revealUp">Lemonaid Health</h3>
+                    <p class="cs-summary ml-0 mb anim-t-revealUp">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
+                    <button class="btn-primary mb anim-underline-blue anim-t-revealUp"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
                 </div>
             </div>
-            <div class="cs anim-revealUp">
-                <img src="/img/display/lemonaid.jpg" class="cs-image"/>
+
+            <div class="d-block container cs anim-revealUp" id="lemonaid">
+                <img src="/img/display/display-rms.jpg" class="cs-image"/>
                 <div class="cs-container">
-                    <h3>Lemonaid Health</h2>
-                    <p class="cs-summary ml-0 mb">Establishing a new brand image for online healthcare. We incrementally released a lifestyle rebrand across Lemonaid’s websites and apps to reflect their quality of care.</p>
-                    <button class="btn-primary mb"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
+                    <h3 class="anim-t-revealUp">Reinsurance Management</h3>
+                    <p class="cs-summary ml-0 mb anim-t-revealUp">Providing new methods of viewing data, increasing investment management firms' domain system efficiency. We envisioned bespoke, innovative data centralization with a series of web apps for numerous investment firms.</p>
+                    <button class="btn-primary mb anim-underline-blue anim-t-revealUp"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="d-block container cs anim-revealUp" id="lemonaid">
+                <img src="/img/display/display-nce.jpg" class="cs-image"/>
+                <div class="cs-container">
+                    <h3 class="anim-t-revealUp">Nursing CE</h3>
+                    <p class="cs-summary ml-0 mb anim-t-revealUp">Leading the vision for a new mobile certificate examination platform to increase accessibility and user satisfaction. We introduced a new mobile platform to enable students to continue their studies on the go.</p>
+                    <button class="btn-primary mb anim-underline-blue anim-t-revealUp"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
+                </div>
+            </div>
+
+            <div class="d-block container cs anim-revealUp" id="lemonaid">
+                <img src="/img/display/display-zoe.jpg" class="cs-image"/>
+                <div class="cs-container">
+                    <h3 class="anim-t-revealUp">Zoe Coffee House</h3>
+                    <p class="cs-summary ml-0 mb anim-t-revealUp">Rebranding the restaurant to facilitate a new business-strategy and enhance user experience. We brought beautiful interfaces to life to meet our users’ expectations.</p>
+                    <button class="btn-primary mb anim-underline-blue anim-t-revealUp"><a href="/lemonaid.html" style="margin-right:16px;" class="no-href-style">Read the case study</a><i class="ph-arrow-right"></i></button>
                 </div>
             </div>
 
@@ -61,56 +81,13 @@
                 <span class="bg-text">healthcare</span>
             </div> -->
         </section>
-<!--
-            <div class="cs">
-                <a href="/lemonaid.html" class="cs-image--2"></a>
-                <div class="cs-container">
-                    <h3>Reinsurance Management</h2>
-                    <p class="cs-summary ml-0 mb">Providing new methods of viewing data, increasing investment management firms' domain system efficiency. We envisioned bespoke, innovative data centralization with a series of web apps for numerous investment firms. </p>
-                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
-                </div>
-            </div>
 
-            <div class="cs">
-                <a href="/lemonaid.html" class="cs-image--3"></a>
-                <div class="cs-container">
-                    <h3>Nursing CE</h2>
-                    <p class="cs-summary ml-0 mb">Leading the vision for a new mobile certificate examination platform to increase accessibility and user satisfaction. We introduced a new mobile platform to enable students to continue their studies on the go.</p>
-                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
-                </div>
-            </div>
-
-            <div class="cs">
-                <a href="/lemonaid.html" class="cs-image--4"></a>
-                <div class="cs-container">
-                    <h3>Zoe Coffee House</h2>
-                    <p class="cs-summary ml-0 mb">Rebranding the restaurant to facilitate a new business-strategy and enhance user experience. We brought beautiful interfaces to life to meet our users’ expectations.</p>
-                    <button class="btn-primary mb">Read the case study <i class="ph-arrow-right"></i></button>
-                </div>
-            </div>
-
-            <div class="cs-bg">
-                <span class="bg-text">healthcare</span>
-            </div>
-        </section> -->
 
         <section class="about" style="padding: 80px 80px 80px 117px;">
             <h2 class="color-white w-75 ml-0 mb-3">
-                <span class="d-flex align-center revealUp">
-                    <span class="color-white text-bold text-uppercase ml-0" style="font-size: 16px;margin-right:40px;">Being the bridge.</span>
-                    I specialize in UX Engineering,
-                </span>
-                <span class="revealUp d-flex">
-                    helping designers and engineers to
-                </span>
-                <span class="revealUp d-flex">
-                    connect with eachother and drive
-                </span>
-                <span class="revealUp d-flex">
-                    growth by designing simple, and
-                </span>
-                <span class="revealUp d-flex">elegant systems.</span></h2>
-                <button class="btn-secondary">More about me</button>
+                <span class="color-white text-bold text-uppercase ml-0" style="font-size: 16px;margin-right:40px;">Being the bridge.</span>
+                I specialize in UX Engineering, helping designers and engineers to connect with eachother and drive growth by designing simple, and elegant systems.</h2>
+                <a href="test.html" class="btn-secondary no-href-style">More about me</a>
         </section>
 
 
@@ -119,6 +96,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js"></script>
+        <script src="/js/SplitText.min.js"></script>
         
         
         <script type="text/javascript" src="js/main.js" async defer></script>

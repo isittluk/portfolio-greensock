@@ -1,3 +1,6 @@
+section { margin-bottom: 3em; }
+.highlight { color: $color-accent; }
+
 .hero {
     position: relative;
     height: 100vh;
@@ -33,51 +36,6 @@
     }
 }
 
-.hero-bg {
-    position: absolute;
-    width: 100%;
-    top: 38%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    align-items: flex-end;
-
-    .hero-bg-img {
-        margin: 0;
-        &--1 { 
-            @extend .hero-bg-img;
-            width:180px;
-            height:200px;
-            background: url(/img/filler/pexels-anastasia-zhenina-10916.jpg);
-            background-size: cover;
-            margin-right:8px;
-        }
-        &--2 {
-            @extend .hero-bg-img;
-            width:220px;
-            height:250px;
-            background: url(/img/filler/pexels-arthouse-studio-4329787.jpg);
-            background-size: cover;
-            margin-right: 30%;
-        }
-        &--3 {
-            @extend .hero-bg-img;
-            width:220px;
-            height:250px;
-            background: url(/img/filler/pexels-dominika-roseclay-2286678.jpg);
-            background-size: cover;
-            margin-right:8px;
-        }
-        &--4 {
-            @extend .hero-bg-img;
-            width:425px;
-            height:340px;
-            background: url(/img/filler/pexels-jv-gardens-339887.jpg);
-            background-size: cover;
-        }
-    }
-}
-
-
 
 
 
@@ -95,17 +53,17 @@
     .cs { 
         position: relative;
         z-index: 2;
-        margin-bottom:20%;
+        margin-bottom: 5em;
+
         .bg-yellow {
             background: linear-gradient(0deg, rgba(255, 247, 37, 0.1), rgba(255, 247, 37, 0.1)), #FFFFFF;
         }
         .cs-image {
             z-index: 5;
             display: flex;
-            width: 100%;
             overflow-y:hidden;
             margin-bottom: -2%;
-            height: 425px;
+            height: 400px;
             width: 69%;
 
             &--1 {
@@ -194,7 +152,6 @@
     }
 }
 
-section { margin-bottom: 3em; }
-.highlight { color: $color-accent; }
+
 
 /////////////////////
